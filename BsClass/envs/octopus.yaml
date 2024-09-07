@@ -1,0 +1,34 @@
+channels:
+- bioconda
+- r
+- defaults
+- conda-forge
+dependencies:
+- _libgcc_mutex=0.1=conda_forge
+- _openmp_mutex=4.5=2_kmp_llvm
+- boost-cpp=1.74.0=h6cacc03_7
+- bzip2=1.0.8=h7b6447c_0
+- c-ares=1.19.0=h5eee18b_0
+- ca-certificates=2023.01.10=h06a4308_0
+- gmp=6.2.1=h295c915_3
+- htslib=1.14=h9753748_2
+- icu=69.1=h9c3ff4c_0
+- krb5=1.19.4=h568e23c_0
+- libcurl=7.88.1=h91b91d3_0
+- libdeflate=1.17=h5eee18b_0
+- libedit=3.1.20221030=h5eee18b_0
+- libev=4.33=h7f8727e_1
+- libgcc-ng=12.2.0=h65d4601_19
+- libnghttp2=1.46.0=hce63b2e_0
+- libssh2=1.10.0=h8f2d780_0
+- libstdcxx-ng=11.2.0=h1234567_1
+- libzlib=1.2.13=h166bdaf_4
+- llvm-openmp=14.0.6=h9e868ea_0
+- lz4-c=1.9.4=h6a678d5_0
+- ncurses=6.4=h6a678d5_0
+- octopus=0.7.4=ha3c1580_2
+- openssl=1.1.1t=h7f8727e_0
+- xz=5.2.10=h5eee18b_1
+- zlib=1.2.13=h166bdaf_4
+- zstd=1.5.5=hc292b87_0
+name: octopus

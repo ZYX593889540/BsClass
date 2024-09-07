@@ -1,0 +1,100 @@
+samples:
+  - FDAARGOS_1239
+  - FDAARGOS_1354
+  - FDAARGOS_1352
+  - FDAARGOS_1348
+  - FDAARGOS_1351
+  - FDAARGOS_1355
+  - FDAARGOS_1353
+  - FDAARGOS_1238
+  - FDAARGOS_1347
+  - FDAARGOS_1356
+  - FDAARGOS_1269
+  - FDAARGOS_1350
+  - FDAARGOS_1349
+  - FDAARGOS_1346
+  - FDAARGOS_1358
+  - FDAARGOS_1240
+  - FDAARGOS_1391
+  - FDAARGOS_563
+  - FDAARGOS_292
+  - FDAARGOS_608
+
+nums: [1, 2]
+work_dir: "/beegfs/home/wtq/snakemake/snakemake-tutorial"
+fastq_dir: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/ngs"
+genome_database: "/beegfs/home/wtq/zhai"
+snp_model: "full"
+snp_num: 6
+calcu_type: "snp"
+cut_num1: 122
+cut_num2: 160
+
+
+name:
+  FDAARGOS_1391: SRR15076565
+  FDAARGOS_1239: SRR13182519
+  FDAARGOS_1354: SRR13674434
+  FDAARGOS_1352: SRR13674450
+  FDAARGOS_1348: SRR13674420
+  FDAARGOS_1351: SRR13674428
+  FDAARGOS_1355: SRR13674436
+  FDAARGOS_1353: SRR13674431
+  FDAARGOS_1238: SRR13182517
+  FDAARGOS_1347: SRR13674418
+  FDAARGOS_1356: SRR13674438
+  FDAARGOS_1269: SRR13183041
+  FDAARGOS_1350: SRR13674423
+  FDAARGOS_1349: SRR13674422
+  FDAARGOS_1240: SRR13182522
+  FDAARGOS_1346: SRR13674415
+  FDAARGOS_1358: SRR13674443
+  FDAARGOS_563: SRR8178578
+  FDAARGOS_292: SRR5413247
+  FDAARGOS_608: SRR9160379
+
+ref_fna:
+  FDAARGOS_1391: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1239: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1354: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1352: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1348: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1351: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1355: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1353: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1238: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1347: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1356: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1269: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1350: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1349: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1240: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1346: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_1358: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_563: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_292: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+  FDAARGOS_608: "/beegfs/home/wtq/pan_genome/snp/dataset/FDA_ecoli/refgenome_for_ecoli.fa"
+
+
+filtered_genus_name:
+  FDAARGOS_1391: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1239: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1354: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1352: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1348: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1351: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1355: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1353: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1238: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1347: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1356: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1269: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1350: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1349: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1240: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1346: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_1358: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_563: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_292: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+  FDAARGOS_608: ["Pseudomonadota", "Gammaproteobacteria", "Enterobacterales", "Enterobacteriaceae", "Escherichia", "Escherichia coli"]
+

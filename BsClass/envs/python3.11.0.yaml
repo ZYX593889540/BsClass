@@ -1,0 +1,13 @@
+channels:
+- defaults
+- conda-forge
+dependencies:
+- python=3.11.0
+- pip
+- numpy
+- pandas
+- snakemake=7.25.0
+- pip:
+  - argparse
+  - itertools
+name: python_env
