@@ -10,7 +10,7 @@ The --workflow option in BsClass includes three workflows: NGS, ONT, and Pacbio.
 
 # Configfile
 
-Before running BsClass, you should first create a configuration file, and an example of the configuration file should be saved in the test_data directory.
+Before running BsClass, you should first create a configuration file, and an example of the configuration file should be saved in the "test_data" directory.
 
 The explanation of parameters in the configuration file is as follows:
 
