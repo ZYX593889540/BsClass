@@ -14,7 +14,7 @@ class BsClass:
         try:
             success = snakemake(
                 snakefile=self.workflowfile,  # 使用提供的工作流文件
-                cores=self.cores,  # 根输入调整核心数
+                cores=self.cores,  # 根据输入调整核心数
                 config={"default_configfile": self.configfile},  # 将YAML配置文件路径传递给Snakemake
                 keepgoing=True,  # 对应 --keep-going
                 printshellcmds=True,  # 对应 --printshellcmds
@@ -34,10 +34,10 @@ def main():
     # 允许选择 workflow (NGS, Pacbio, ONT)
     parser.add_argument('--workflow', required=True, choices=['NGS', 'Pacbio', 'ONT'], help="Specify the workflow type (NGS, Pacbio, ONT)")
     
-    # 新增选择核心数的参数
+    # 选择核心数的参数
     parser.add_argument('--cores', type=int, default=4, help="Number of CPU cores to use (default: 4)")
     
-    # 新增 YAML 配置文件路径参数
+    # YAML配置文件路径参数
     parser.add_argument('--configfile', required=True, help="Path to the YAML configuration file")
     
     args = parser.parse_args()
@@ -61,4 +61,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
