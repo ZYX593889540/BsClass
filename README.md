@@ -2,10 +2,6 @@
 
 BsClass is a workflow tool built on Snakemake for bacterial data analysis, offering a complete quality control module for processing NGS and third-generation sequencing (Pacbio/ONT) fastq data. It also provides assembly modules that integrate third-generation assembly with NGS data correction, as well as an SNP calling module to automate bacterial strain identification workflows. By using BsClass, you can automate tasks such as quality control, assembly, ANI (Average Nucleotide Identity) and SNP calculation, clustering, and strain identification for unknown sample genomes from fastq data.
 
-# Environment configuration
-
-Before running BsClass, enter the "envs" directory and use conda to install all the software in the directory.
-
 # Running BsClass
 
 ``python BsClass.py --workflow <workflow> --cores <cores> --configfile </path/to/config.yaml>``
