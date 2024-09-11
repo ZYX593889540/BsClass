@@ -12,4 +12,3 @@ dependencies:
 - libgcc-ng=13.1.0=he5830b7_0
 - libgomp=13.1.0=he5830b7_0
 - libstdcxx-ng=13.1.0=hfd8a6a1_0
-name: fastp
