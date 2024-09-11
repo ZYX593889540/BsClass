@@ -31,3 +31,4 @@ dependencies:
 - xz=5.2.10=h5eee18b_1
 - zlib=1.2.13=h166bdaf_4
 - zstd=1.5.5=hc292b87_0
+name: octopus
