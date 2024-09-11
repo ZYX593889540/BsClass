@@ -350,7 +350,7 @@ rule skani:
     params:
        genome_db=lambda wildcards: "{genome_db}".format(genome_db=genome_database),
        model=lambda wildcards: "{model}".format(model=snp_model),
-       path=lambda wildcards: "{path}".format(path=genome_database)，
+       path=lambda wildcards: "{path}".format(path=genome_database),
        script_dir=os.path.dirname(BASEDIR)
     shell:
         """
