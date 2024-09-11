@@ -29,8 +29,8 @@ cut_num2 = config["cut_num2"]
 
 rule all:
     input:
-        truth_bed=expand("{work_path}/output/truth_bed/{sample}/truth_{sample}.bed", sample=samples, work_path=[work_dir]),
-        html=expand("{work_path}/output/multiqc/genome_judge/sum.html",work_path=[work_dir]),
+        expand("{work_path}/output/truth_bed/{sample}/truth_{sample}.bed", sample=samples, work_path=[work_dir]),
+        expand("{work_path}/output/multiqc/genome_judge/sum.html",work_path=[work_dir]),
         expand("{work_path}/output/unicycler/{sample}/{sample}.fasta", work_path=work_dir, sample=samples),
         expand("{work_path}/output/skani/sample_db_matrix.txt", work_path=work_dir),
         expand("{work_path}/output/skani/snp_mess.txt", work_path=work_dir),
