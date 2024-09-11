@@ -22,7 +22,7 @@ The explanation of parameters in the configuration file is as follows:
 
 ``filtered_genus_name: The genus names of the filtered species. It should include ["Phylum", "Class", "Order", "Family", "Genus", "Species"].``
 
-``nums: For paired-end sequencing data, the '1' and '2' correspond to the two reads in the paired-end data: "*_1.fq.gz" and "*_2.fq.gz", respectively. These represent the forward and reverse reads of the paired-end sequencing data.``
+``nums: For paired-end sequencing data, the '1' and '2' correspond to the two reads in the paired-end data: "*_1.fq.gz" and "*_2.fq.gz", respectively. These represent the forward and reverse reads of the paired-end sequencing data. Pacbio and ONT data do not require this parameter.``
 
 ``work_dir: The path to the working directory. All intermediate files and result files will be generated in this directory.``
 
