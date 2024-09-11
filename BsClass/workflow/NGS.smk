@@ -257,7 +257,7 @@ rule snp_group:
     shell:
       """
       rm {input.txt}
-      bash {params.script_path}/gain_snippy.sh -i {params.snp_path}/snp_mess.txt -p {params.snippy_path} -o {output.snpmess_txt}
+      bash {params.script_dir}/scripts/gain_snippy.sh -i {params.snp_path}/snp_mess.txt -p {params.snippy_path} -o {output.snpmess_txt}
       python {params.script_dir}/scripts/snp_group.py -i {output.snpmess_txt} -m {params.model} -t {params.type} \
         -n {params.num1} -o {output.snp_group_low}
       python {params.script_dir}/scripts/snp_group.py -i {output.snpmess_txt} -m {params.model} -t {params.type} \
