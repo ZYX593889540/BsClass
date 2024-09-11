@@ -35,4 +35,3 @@ dependencies:
 - readline=8.2=h5eee18b_0
 - xz=5.2.10=h5eee18b_1
 - zlib=1.2.13=h5eee18b_0
-name: bcftools
