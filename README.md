@@ -40,4 +40,4 @@ The explanation of parameters in the configuration file is as follows:
 
 # Download the database
 
-Before running BsClass, it is necessary to download the database of Kraken2 and save it in the "{work_cth}/output/kraken2/db" path.
+Before running BsClass, it is necessary to download the database of Kraken2 and save it in the "{work_dir}/output/kraken2/db" path.
